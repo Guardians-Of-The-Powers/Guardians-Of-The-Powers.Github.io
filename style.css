@@ -1,9 +1,17 @@
+
 nav ol li {
-  background_color: yellow;
+    float: left;
 }
 
-.Joel {
-  background-color: skyblue;
-  color: red;
+nav ol li a {
+    display: block;
+    padding: 25px;
+    background-color:rgb(0, 204, 255);
+    color:rgb(255, 0, 0);
+    text-decoration: none;
 }
-  
+
+nav ol li a:hover {
+    background-color:rgb(255, 0, 0);
+    color:rgb(0, 204, 255);
+}
