@@ -1,4 +1,14 @@
 
+nav ol {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(0, 204, 255);
+    margin: 0;
+}
+
 nav ol li {
     float: left;
 }
